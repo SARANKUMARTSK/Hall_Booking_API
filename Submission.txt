@@ -1,0 +1,55 @@
+Render URL : https://hall-booking-api-6xz5.onrender.com
+gitHub URL : https://github.com/SARANKUMARTSK/Hall_Booking_API.git
+
+1.Create a Room With 
+     * Number Of Seats available 
+     * amenities in room 
+     * price for 1 Hour 
+
+Method : POST
+https://hall-booking-api-6xz5.onrender.com/rooms
+
+2.Booking a Room With
+     * Customer Name 
+     * Date 
+     * Start Time 
+     * End Time 
+     * Room ID 
+
+Method : POST
+https://hall-booking-api-6xz5.onrender.com/rooms/booking
+
+
+3. List all Rooms with Booked Data With 
+     * Room Name 
+     * Booked Status 
+     * Customer Name 
+     * Date 
+     * Start Time 
+     * End Time 
+
+Method : GET
+https://hall-booking-api-6xz5.onrender.com/rooms/booking
+
+4. List All Customers with Booked Data With
+     * Customer Name 
+     * Room Name 
+     * Date 
+     * Start Time 
+     * End Time 
+
+Method : GET
+https://hall-booking-api-6xz5.onrender.com/rooms/customer
+
+5. List How Many Times a Customer Has Booked the Room With below Details 
+     * Customer Name 
+     * Room Name 
+     * Date 
+     * Start Time 
+     * End Time 
+     * Booking ID 
+     * Booked Date 
+     * Booking Status 
+
+Method : GET
+https://hall-booking-api-6xz5.onrender.com/rooms/getCount/customer-01
